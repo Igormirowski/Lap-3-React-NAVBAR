@@ -3,18 +3,19 @@ import { NavLink } from "react-router-dom";
 import './style.css'
 
 const Header = () => {
+    const activeClass = ({ isActive }) => isActive ? 'current' : undefined 
     return (
     <nav>
         <ul>
-            <li><NavLink className={
-                ({ isActive }) => isActive ? 'current' : undefined 
+            <li><NavLink className={ activeClass
+                // ({ isActive }) => isActive ? 'current' : undefined 
                 // 2nd OPTION :
                 // { return isActive ? 'current' : undefined }
                 
             } 
                 to='/'>News</NavLink></li>
-            <li><NavLink to='/about'>About</NavLink></li>
-            <li><NavLink to='home'>Home</NavLink></li>
+            <li><NavLink className={ activeClass} to='/about'>About</NavLink></li>
+            <li><NavLink className={ activeClass} to='home'>Home</NavLink></li>
         </ul>
         
     </nav>
