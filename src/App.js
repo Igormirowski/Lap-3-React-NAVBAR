@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { News } from './pages';
+import { News, Home, About } from './pages';
 import { Header, Footer } from './layout';
 
 import './App.css';
@@ -11,6 +11,8 @@ function App(){
     <>
       <Header />
       <News />
+      <Home />
+      <About />
       <Footer />
     </>
   );
