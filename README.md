@@ -13,3 +13,5 @@ Building navbar with News website
 - add navigation 
 - change Link to NavLink (add class to see when I am on the page)
 - create back button 
+- play with useNavigate hook 
+- BackButton make it functional 
