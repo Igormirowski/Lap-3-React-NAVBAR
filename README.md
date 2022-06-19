@@ -11,3 +11,4 @@ Building navbar with News website
 - add BrowserRouter
 - add Reoutes and connect them 
 - add navigation 
+- change Link to NavLink (add class to see when I am on the page)
