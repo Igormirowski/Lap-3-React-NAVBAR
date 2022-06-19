@@ -5,3 +5,7 @@ Building navbar with News website
 - npm install 
 - npm run dev
 - npm install react-router-dom@6
+- create 2 pages: Home and About
+- import and use them 
+
+- add BrowserRouter
