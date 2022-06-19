@@ -10,14 +10,13 @@ function App(){
   return(
     <>
 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* Reoute [path][element] / */}
-    </Routes>
       <Header />
-      <News />
-      {/* <Home />
-      <About /> */}
+      <Routes>
+      <Route path="/" element={<News />} />  {/* when I go to this url / I want to render Home */}
+      {/* Reoute [path][element] / */}
+      <Route path="about" element={<About />} />
+      <Route path="home" element={<Home />} />
+    </Routes>
       <Footer />
     </>
   );
