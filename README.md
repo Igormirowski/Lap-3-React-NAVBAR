@@ -9,3 +9,5 @@ Building navbar with News website
 - import and use them 
 
 - add BrowserRouter
+- add Reoutes and connect them 
+- add navigation 
