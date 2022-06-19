@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import { BackButton } from '../../components';
 import './style.css'
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     return (
     <nav>
         <ul>
-            <li><NavLink className={ activeClass
+            <li><NavLink className={ activeClass // with NavLink we can set an active Class         NavLink to = a hfer
                 // ({ isActive }) => isActive ? 'current' : undefined 
                 // 2nd OPTION :
                 // { return isActive ? 'current' : undefined }
@@ -16,6 +17,8 @@ const Header = () => {
                 to='/'>News</NavLink></li>
             <li><NavLink className={ activeClass} to='/about'>About</NavLink></li>
             <li><NavLink className={ activeClass} to='home'>Home</NavLink></li>
+            
+            <BackButton />
         </ul>
         
     </nav>

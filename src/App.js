@@ -13,6 +13,8 @@ function App(){
       <Header />
       <Routes>
       <Route path="/" element={<News />} />  {/* when I go to this url / I want to render Home */}
+
+      
       {/* Reoute [path][element] / */}
       <Route path="about" element={<About />} />
       <Route path="home" element={<Home />} />
