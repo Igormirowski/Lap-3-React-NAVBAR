@@ -1,4 +1,5 @@
 # LAP 3 
+(testingV2 extra branch for testing)
 
 Building navbar with News website 
 
@@ -20,3 +21,8 @@ https://user-images.githubusercontent.com/99121268/174474877-29b5f0a7-7760-4f77-
 - create back button 
 - play with useNavigate hook 
 - BackButton make it functional 
+
+# Testing (testingV2 branch)
+
+https://user-images.githubusercontent.com/99121268/174582453-176af2a8-b4d5-4002-ab4f-4e4c94f4df36.mov
+
