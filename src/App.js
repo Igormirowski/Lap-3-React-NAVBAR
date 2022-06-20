@@ -18,7 +18,7 @@ function App(){
       {/* Reoute [path][element] / */}
       <Route path="about" element={<About />} />
       <Route path="home" element={<Home />} />
-      <Route path="*" element={<NotGound />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
       <Footer />
     </>
