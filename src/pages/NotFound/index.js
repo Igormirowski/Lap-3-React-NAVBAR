@@ -8,10 +8,12 @@ const NotFound = () => {
         <>
         <h1>
        Sorry, {location.pathname} page not found!
+        </h1>
+        <button>
        <Link to='/'>
        go back to main page
        </Link>
-        </h1>
+       </button>
         </>
     )
 

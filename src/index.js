@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
 
+// import { BrowserRouter } from "react-router-dom"; ===> then use Router instead of BrowserRouter on line 12 & 16
+
 import './index.css';
 import App from './App';
 
