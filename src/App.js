@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { News, Home, About } from './pages';
+import { News, Home, About, NotFound } from './pages';
 import { Header, Footer } from './layout';
 
 import './App.css';
@@ -18,6 +18,7 @@ function App(){
       {/* Reoute [path][element] / */}
       <Route path="about" element={<About />} />
       <Route path="home" element={<Home />} />
+      <Route path="*" element={<NotGound />} />
     </Routes>
       <Footer />
     </>
