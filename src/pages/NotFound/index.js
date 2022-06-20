@@ -1,9 +1,12 @@
 import React from 'react'; 
+import { useLocation, Link } from 'react-router-dom';
+
 
 const NotFound = () => {
+    const location = useLocation()
     return(
         <h1>
-       Sorry page not found!
+       Sorry, {location.pathname} page not found!
         </h1>
     )
 

@@ -20,3 +20,4 @@ Building navbar with News website
 # Testing 
 - new test.js folder in BackButton 
 - we use MemoryRouter 
+- use hook useLocation (to print what path was not found in NotFound message)
