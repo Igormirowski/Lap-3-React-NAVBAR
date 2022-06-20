@@ -1,10 +1,10 @@
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react'; // import screen to have an access to screen mouse etc to interact
 import { MemoryRouter } from 'react-router-dom';
 import BackButton from './';
 
 
 describe ('back button' , ()=> {
-    beforeEach( () => render(<BackButton />), { wrapper: MemoryRouter})
+    beforeEach((() => render(<BackButton /> , { wrapper: MemoryRouter})))
 
     test('renders a back button' , () => {
         const btn = screen.getByRole('button' , {name: 'go back'})
