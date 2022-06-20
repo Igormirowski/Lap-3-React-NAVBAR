@@ -15,3 +15,8 @@ Building navbar with News website
 - create back button 
 - play with useNavigate hook 
 - BackButton make it functional 
+
+
+# Testing 
+- new test.js folder in BackButton 
+- we use MemoryRouter 
